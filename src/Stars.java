@@ -3,7 +3,7 @@ public class Stars {
 
 	public static void main(String[]args) {
 		
-	StarsDown(15);
+	StarsUp(5);
 	
 	}
 	
@@ -20,5 +20,16 @@ public class Stars {
 		
 	}
 	
-	
+	public static void StarsUp(int number) {
+		  for(int i=0; i<number; i++) { 
+			
+			  for(int j=number; j>i; j--) { 
+				  
+				  System.out.print("*"); 
+			  }
+			  System.out.println();
+		  }
+		
+	}
 }
+
