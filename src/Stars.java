@@ -15,9 +15,8 @@ public class Stars {
 				
 				System.out.print("*"); 
 			}
-				System.out.println();	
+			System.out.println();	
 		}
-		
 	}
 	
 	public static void StarsUp(int number) {
@@ -29,7 +28,6 @@ public class Stars {
 			  }
 			  System.out.println();
 		  }
-		
 	}
 }
 
